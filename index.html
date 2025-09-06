@@ -92,12 +92,78 @@
 
   <script>
     const questions = [
-      { sentence: "The capital of France is ___ and it is famous for the Eiffel Tower.",
-        answers: ["Paris"], translation: "The capital of France is Paris and it is famous for the Eiffel Tower.",
-        jpTranslation: "フランスの首都はパリで、エッフェル塔で有名です。", blanksTranslation: ["パリ"] },
-      { sentence: "Water boils at ___ degrees Celsius and freezes at ___ degrees.",
-        answers: ["100", "0"], translation: "Water boils at 100 degrees Celsius and freezes at 0 degrees.",
-        jpTranslation: "水は100度で沸騰し、0度で凍ります。", blanksTranslation: ["100度", "0度"] }
+    { sentence: "The capital of Japan is ___ and it is famous for the Skytree.",
+  answers: ["Tokyo"],
+  translation: "The capital of Japan is Tokyo and it is famous for the Skytree.",
+  jpTranslation: "日本の首都は東京で、スカイツリーが有名です。",
+  blanksTranslation: ["東京"]
+ },
+{ "sentence": "Patients are ___ to infection just after surgery.",
+  "answers": ["vulnerable"],
+  "translation": "Patients are vulnerable to infection just after surgery.",
+  "jpTranslation": "患者は手術の直後、感染症にかかりやすくなる。",
+  "blanksTranslation": ["かかりやすい"]
+ },
+{ "sentence": "Make sure to ___ all the warning signs.",
+  "answers": ["heed"],
+  "translation": "Make sure to heed all the warning signs.",
+  "jpTranslation": "すべての警戒標識に気をつけるようにしてください。",
+  "blanksTranslation": ["気をつける"]
+ },
+{ "sentence": "A ___ captured the arrest on video.",
+  "answers": ["bystander"],
+  "translation": "A bystander captured the arrest on video.",
+  "jpTranslation": "その場に居合わせた人が逮捕の様子を動画に収めた。",
+  "blanksTranslation": ["傍観者"]
+ },
+{ "sentence": "The bridge eases ___ in the area.",
+  "answers": ["congestion"],
+  "translation": "The bridge eases congestion in the area.",
+  "jpTranslation": "その橋は地域の混雑を緩和している。",
+  "blanksTranslation": ["混雑"]
+ },
+{ "sentence": "She ___ all her appliances and replaced them with new ones.",
+  "answers": ["discarded"],
+  "translation": "She discarded all her appliances and replaced them with new ones.",
+  "jpTranslation": "彼女はすべての電化製品を捨て、新しいものに買い換えた。",
+  "blanksTranslation": ["〜を捨てる"]
+ },
+{ "sentence": "The ___ was completely out of control and spread quickly.",
+  "answers": ["blaze"],
+  "translation": "The blaze was completely out of control and spread quickly.",
+  "jpTranslation": "炎は完全に制御不能で、あっという間に燃え広がった。",
+  "blanksTranslation": ["炎"]
+ },
+{  "sentence": "He is a little ___ with a paintbrush.",
+  "answers": ["clumsy"],
+  "translation": "He is a little clumsy with a paintbrush.",
+  "jpTranslation": "彼は絵筆を使うのが少し不器用だ。",
+  "blanksTranslation": ["不器用な"]
+ },
+{  "sentence": "We must ___ major sources of pollution quickly.",
+  "answers": ["eliminate"],
+  "translation": "We must eliminate major sources of pollution quickly.",
+  "jpTranslation": "私たちは主要な汚染源を早急に除去しなければならない。",
+  "blanksTranslation": ["〜を取り除く"]
+ },
+{  "sentence": "The politician ___ his involvement in the scandal.",
+  "answers": ["acknowledged"],
+  "translation": "The politician acknowledged his involvement in the scandal.",
+  "jpTranslation": "その政治家はスキャンダルへの関与を認めた。",
+  "blanksTranslation": ["〜を認める"]
+ },
+{  "sentence": "Not all mushrooms are ___, so you have to be careful.",
+  "answers": ["edible"],
+  "translation": "Not all mushrooms are edible, so you have to be careful.",
+  "jpTranslation": "すべてのキノコが食べられるわけではないので、注意が必要だ。",
+  "blanksTranslation": ["食べられる"]
+ },
+{  "sentence": "Our people have ___ the land here for centuries.",
+  "answers": ["cultivated"],
+  "translation": "Our people have cultivated the land here for centuries.",
+  "jpTranslation": "私たち一族は何世紀にもわたってこの土地を耕してきた。",
+  "blanksTranslation": ["(土地)を耕す"]
+ }
     ];
 
     let current = 0, score = 0;
